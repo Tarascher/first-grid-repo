@@ -63,3 +63,46 @@ img {
   grid-template-rows: auto 1fr auto;
   gap: 10px;
 }
+.a {
+  grid-area: a;
+  background: red;
+}
+.b {
+  grid-area: b;
+  background: blue;
+}
+.c {
+  grid-area: c;
+  background: brown;
+}
+.d {
+  grid-area: d;
+  background: yellow;
+}
+.e {
+  grid-area: e;
+  background: yellowgreen;
+}
+.f {
+  grid-area: f;
+  background: gray;
+}
+.g {
+  grid-area: g;
+  background: fuchsia;
+}
+.h {
+  grid-area: h;
+  background: firebrick;
+}
+.alfavit {
+  display: grid;
+  grid-auto-rows: 170px;
+  grid-template-areas:
+    "a a a a"
+    "b c c d"
+    "b c c d"
+    "b e f d"
+    "g g h h";
+  gap: 2rem;
+}
