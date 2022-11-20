@@ -63,7 +63,7 @@ img {
   grid-template-rows: auto 1fr auto;
   gap: 10px;
 }
-.a {
+/*.a {
   grid-area: a;
   background: red;
 }
@@ -106,3 +106,4 @@ img {
     "g g h h";
   gap: 2rem;
 }
+*/
